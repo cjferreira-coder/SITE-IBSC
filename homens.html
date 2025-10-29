@@ -11,31 +11,24 @@
     
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="">
 
     <header class="navbar">
         <div class="container">
             <a href="index.html" class="logo">[Igreja]<span>Batista</span></a>
             <div class="menu-hamburger" id="menu-hamburger">
-                &#9776;
+                <span></span><span></span><span></span>
             </div>
             <nav class="nav-links" id="nav-links">
                 <ul>
                     <li><a href="index.html">Início</a></li>
-                    <li class="dropdown">
-                        <a href="#">Ministérios <span class="caret">&#9662;</span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="homens.html">Homens</a></li>
-                            <li><a href="mulheres.html">Mulheres</a></li>
-                            <li><a href="infantil.html">Infantil</a></li> 
-                            <li><a href="juventude.html">Juventude</a></li> </ul>
-                    </li>
-                    <li><a href="agenda.html">Agenda</a></li>
+                    <li><a href="homens.html">Homens</a></li>       <li><a href="mulheres.html">Mulheres</a></li>    <li><a href="infantil.html">Infantil</a></li>    <li><a href="juventude.html">Juventude</a></li>   <li><a href="agenda.html">Agenda</a></li> 
                     <li><a href="#" class="btn-contato">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    <div class="menu-overlay" id="menu-overlay"></div>
 
     <section class="hero hero-homens">
         <div class="hero-content">
@@ -51,43 +44,31 @@
         </div>
         <div class="grid-atividades">
              <div class="atividade-card">
-                 <div class="imagem-container">
-                    <img src="https://via.placeholder.com/400x250.png/005A9C/FFFFFF?text=Estudos+Bíblicos" alt="Homens estudando a Bíblia">
-                </div>
-                <div class="atividade-card-content">
-                    <h3>Estudos Bíblicos e Discipulado</h3>
-                    <p>Encontros semanais para estudo aprofundado...</p>
-                </div>
+                 <div class="imagem-container"><img src="https://via.placeholder.com/400x250.png/005A9C/FFFFFF?text=Estudos+Bíblicos" alt="Homens estudando a Bíblia"></div>
+                 <div class="atividade-card-content"><h3>Estudos Bíblicos e Discipulado</h3><p>Encontros semanais...</p></div>
             </div>
             <div class="atividade-card">
-                 <div class="imagem-container">
-                    <img src="https://via.placeholder.com/400x250.png/F68B1F/FFFFFF?text=Eventos+Esportivos" alt="Homens participando de evento esportivo">
-                 </div>
-                <div class="atividade-card-content">
-                    <h3>Eventos e Confraternizações</h3>
-                    <p>Organizamos churrascos, pescas, jogos...</p>
-                </div>
+                 <div class="imagem-container"><img src="https://via.placeholder.com/400x250.png/F68B1F/FFFFFF?text=Eventos+Esportivos" alt="Homens participando de evento esportivo"></div>
+                 <div class="atividade-card-content"><h3>Eventos e Confraternizações</h3><p>Organizamos churrascos...</p></div>
             </div>
             <div class="atividade-card">
-                 <div class="imagem-container">
-                    <img src="https://via.placeholder.com/400x250.png/005A9C/FFFFFF?text=Serviço+e+Missões" alt="Homens em ação social">
-                 </div>
-                <div class="atividade-card-content">
-                    <h3>Serviço e Missões</h3>
-                    <p>Participamos ativamente em projetos sociais...</p>
-                </div>
+                 <div class="imagem-container"><img src="https://via.placeholder.com/400x250.png/005A9C/FFFFFF?text=Serviço+e+Missões" alt="Homens em ação social"></div>
+                 <div class="atividade-card-content"><h3>Serviço e Missões</h3><p>Participamos ativamente...</p></div>
             </div>
         </div>
         <div class="chamada-acao-ministerio">
             <h2>Participe do Ministério de Homens</h2>
-            <p>Se você é homem e busca um lugar para crescer na fé...</p>
+            <p>Se você é homem e busca um lugar para crescer...</p>
             <a href="#" class="btn-cta">Entre em Contato</a>
         </div>
+    </main>
+
     </main>
 
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
+
                 <div class="footer-col">
                     <a href="index.html" class="logo-footer">[Igreja]<span>Batista</span></a>
                     <p>Um lugar de fé, comunhão e serviço. Junte-se a nós!</p>
@@ -97,27 +78,43 @@
                         <a href="#" title="YouTube">YT</a> 
                     </div>
                 </div>
+
                 <div class="footer-col">
                     <h4>Links Rápidos</h4>
                     <ul>
                         <li><a href="index.html">Início</a></li>
-                        <li><a href="#">Ministérios</a></li>
-                        <li><a href="#">Agenda</a></li>
+                        <li><a href="#">Ministérios</a></li> 
+                        <li><a href="agenda.html">Agenda</a></li>
                         <li><a href="#">Contato</a></li>
                     </ul>
                 </div>
+
                 <div class="footer-col">
                     <h4>Entre em Contato</h4>
-                     <p class="footer-contact-item"><span class="icon">📍</span> <span>Rua [Nome da Rua], 123<br>Bairro [Nome do Bairro], Cidade - UF<br>CEP: 12345-678</span></p>
-                    <p class="footer-contact-item"><span class="icon">✉️</span> <a href="mailto:contato@suaigreja.com">contato@suaigreja.com</a></p>
-                    <p class="footer-contact-item"><span class="icon">📞</span> <a href="tel:+5599999999999">(99) 99999-9999</a></p>
-               </div>
+                    <p class="footer-contact-item">
+                        <span class="icon">📍</span> <span>
+                            Rua [Nome da Rua], 123<br>
+                            Bairro [Nome do Bairro], Cidade - UF<br>
+                            CEP: 12345-678
+                        </span>
+                    </p>
+                    <p class="footer-contact-item">
+                        <span class="icon">✉️</span> <a href="mailto:contato@suaigreja.com">contato@suaigreja.com</a>
+                    </p>
+                    <p class="footer-contact-item">
+                        <span class="icon">📞</span> <a href="tel:+5599999999999">(99) 99999-9999</a>
+                    </p>
+                </div>
+
             </div>
         </div>
         <div class="footer-bottom">
             <p>&copy; 2025 Igreja Batista [Nome]. Todos os direitos reservados.</p>
         </div>
     </footer>
+
     <script src="script.js"></script>
+</body>
+</html>
 </body>
 </html>

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "dia": "30",
+        "mes": "NOV",
+        "imagem": "https://via.placeholder.com/600x300.png/005A9C/FFFFFF?text=Culto+Dominical",
+        "titulo": "Culto de Domingo",
+        "resumo": "Participe do nosso culto principal de celebração e adoração. Todos os domingos, às 10h e 18h."
+    },
+    {
+        "id": 2,
+        "dia": "05",
+        "mes": "NOV",
+        "imagem": "https://via.placeholder.com/400x200.png/F68B1F/FFFFFF?text=Estudo+Bíblico",
+        "titulo": "Estudo Bíblico Semanal",
+        "resumo": "Venha aprofundar seu conhecimento da Palavra. Todas as quartas-feiras, às 19h30."
+    },
+    {
+        "id": 3,
+        "dia": "08",
+        "mes": "NOV",
+        "imagem": "https://via.placeholder.com/400x200.png/005A9C/FFFFFF?text=Ação+Social",
+        "titulo": "Ação Social Comunitária",
+        "resumo": "Neste sábado, faremos nossa campanha de arrecadação de alimentos e roupas. Participe!"
+    }
+]
